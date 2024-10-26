@@ -3,7 +3,7 @@ from pycoingecko import CoinGeckoAPI
 import plotly.graph_objects as go
 import pandas as pd
 import pandas_ta as ta
-import time
+
 cg = CoinGeckoAPI()
 st.set_page_config(page_title="CryptoBen")
 st.title('Visualizador de Precios de Criptomonedas')
